@@ -1,5 +1,5 @@
 ## WalletShell - GUI wallet for Redstone
-![WalletShell Screens]("https://imgur.com/XHhmq5J")
+![WalletShell Screens](https://imgur.com/XHhmq5J)
 ### Features:
 
 This wallet contains the basic functions required to manage your RedStone assets:
