@@ -1,4 +1,4 @@
-## WalletShell - GUI wallet for TurtleCoin.
+## WalletShell - GUI wallet for Redstone
 
 ![WalletShell Screens](https://i.imgur.com/41Ujq0S.gif "WalletShell Screens")
 
