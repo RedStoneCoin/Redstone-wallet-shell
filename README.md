@@ -1,6 +1,6 @@
 ## WalletShell - GUI wallet for Redstone
 
-![alt text]("unknown.png")
+![alt text]("https://github.com/RedStoneCoin/Redstone-wallet-shell/blob/main/unknown.png")
 
 ### Features:
 
