@@ -1,10 +1,8 @@
 ## WalletShell - GUI wallet for Redstone
-
-![alt text]("https://github.com/RedStoneCoin/Redstone-wallet-shell/blob/main/unknown.png")
-
+![WalletShell Screens](https://imgur.com/XHhmq5J "WalletShell Screens")
 ### Features:
 
-This wallet contains the basic functions required to manage your TurtleCoin assets:
+This wallet contains the basic functions required to manage your RedStone assets:
 
 * Wallet creation:
   * Create new wallet.
@@ -28,7 +26,7 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
   * Allow to optionally create password protected address book.
 * Misc:
   * Option to use system tray (on closing/minimizing wallet)
-  * Provides list of public nodes, fetch/updated daily from [turtlecoin-nodes-json](https://github.com/turtlecoin/turtlecoin-nodes-json) repo.
+  * Provides list of public nodes, fetch/updated daily from 
   * Allow to add custom node address.
   * Theme: Dark & Light Mode
   * [Keyboard shortcuts](docs/shortcut.md)
@@ -36,17 +34,17 @@ This wallet contains the basic functions required to manage your TurtleCoin asse
 ### Download &amp; Run WalletShell
 
 #### Windows:
-1. Download the latest installer here: https://github.com/turtlecoin/turtle-wallet-electron/releases/latest
+1. Download the latest installer here: https://github.com/RedStoneCoin/Redstone-wallet-shell/releases
 2. Run the installer (`walletshell-<version>-win-setup.exe`) and follow the installation wizard.
 3. Launch WalletShell via start menu or desktop shortcut.
 
 #### GNU/Linux (AppImage):
-1. Download latest AppImage bundle here: https://github.com/turtlecoin/turtle-wallet-electron/releases/latest
+1. Download latest AppImage bundle here: https://github.com/RedStoneCoin/Redstone-wallet-shell/releases
 2. Make it executable, either via GUI file manager or command line, e.g. `chmod +x walletshell-<version>-linux.AppImage`
 3. Run/execute the file, double click in file manager, or run via shell/command line (See: https://docs.appimage.org/user-guide/run-appimages.html)
 
 #### macOS
-1. Download latest archive here: https://github.com/turtlecoin/turtle-wallet-electron/releases/latest
+1. Download latest archive here: https://github.com/RedStoneCoin/Redstone-wallet-shell/releases
 2. Extract downloaded zip archived
 3. Run the executable binary (`WalletShell.app/Contents/MacOs/WalletShell`)
 
@@ -59,14 +57,14 @@ You need to have `Node.js` and `npm` installed, go to https://nodejs.org and fin
 Once you have Node+npm installed:
 ```
 # assuming you're building it on GNU/Linux
-# first, download turtle-service binary for each platform
+# first, download gemservice binary for each platform
 # from TurtleCoin official repo
 # https://github.com/turtlecoin/turtlecoin/releases
 # extract the turtle-service executable somewhere
 
 # clone the repo
-$ git clone https://github.com/turtlecoin/turtle-wallet-electron
-$ cd turtle-wallet-electron
+$ git clone https://github.com/RedStoneCoin/Redstone-wallet-shell.git
+$ cd Redstone-wallet-shell
 
 # install dependencies
 $ npm install
@@ -79,17 +77,17 @@ $ cp ./src/assets/icon.* ./build/
 
 # build GNU/Linux package
 $ mkdir -p ./bin/lin
-$ cp /path/to/linux-version-of/turtle-service ./bin/lin/
+$ cp /path/to/linux-version-of/gemservice ./bin/lin/
 $ npm run dist-lin
 
 # build Windows package (you need to have wine 2.0+ installed)
 $ mkdir -p ./bin/win
-$ cp /path/to/win-version-of/turtle-service.exe ./bin/win/
+$ cp /path/to/win-version-of/gemservice.exe ./bin/win/
 $ npm run dist-win
 
 # build OSX package
 $ mkdir -p ./bin/osx
-$ cp /path/to/osx-version-of/turtle-service ./bin/osx/
+$ cp /path/to/osx-version-of/gemservice ./bin/osx/
 $ npm run dist-mac
 ```
 
