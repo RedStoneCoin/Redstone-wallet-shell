@@ -1,6 +1,6 @@
 ## WalletShell - GUI wallet for Redstone
 
-![alt text]("https://discord.com/channels/@me/775052474897399859/776407576064688138")
+![alt text]("https://cdn.discordapp.com/attachments/710608408406917180/776374019913285682/unknown.png")
 
 ### Features:
 
